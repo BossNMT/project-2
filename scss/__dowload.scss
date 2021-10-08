@@ -1,0 +1,40 @@
+.dowload {
+    margin-top: 128px;
+    display: flex;
+    justify-content: space-between;
+
+    .text {
+        width: 60%;
+        
+        h1 {
+            font-size: 48px;
+            line-height: 58px;
+            color: #242f51;
+            font-weight: 600;
+            font-family: "Poppins";
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 26px;
+            color: #616368;
+            font-weight: 400;
+            font-family: "Poppins";
+            margin-top: 24px;
+        }
+
+        .app {
+            margin: 40px 10px;
+
+            a:hover {
+                opacity: 0.6;
+                transition: 0.25s ease;
+            }
+        }
+    }
+
+    #Vector {
+        width: 40%;
+        // transform: translateX(25%);
+    }
+}

@@ -1,0 +1,105 @@
+.Frequently {
+    margin-top: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    h1 {
+        font-size: 40px;
+        line-height: 58px;
+        color: #242f51;
+        font-weight: 600;
+        font-family: "Poppins";
+        text-align: center;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 26px;
+        color: #616368;
+        font-weight: 400;
+        font-family: "Poppins";
+        text-align: center;
+        width: 55%;
+        margin-top: 28px;
+    }
+
+    .text {
+        margin-top: 60px;
+        width: 80%;
+
+        .text__list {
+            background-color: #f5f7fa;
+            padding: 32px;
+            margin-top: 12px;
+            border-radius: 16px;
+
+            .list_head {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                h4 {
+                    font-size: 20px;
+                    line-height: 58px;
+                    color: #242f51;
+                    font-weight: 600;
+                    font-family: "Poppins";
+                    margin: 0;
+                }
+
+                i {
+                    font-size: 30px;
+                    color: #242f51;
+                }
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 26px;
+                color: #616368;
+                font-weight: 400;
+                font-family: "Poppins";
+                width: 100%;
+                text-align: left;
+                margin: 12px 0 0 0;
+            }
+        }
+
+        .text__list:hover {
+            cursor: pointer;
+            // opacity: 0.5;
+            transition: 0.25s ease;
+            box-shadow: 1px 5px 5px 5px rgba(0, 0, 0, 0.1);
+        }
+    }
+}
+
+.disabled {
+    .list_head {
+        .plus {
+            display: block;
+        }
+        .minus {
+            display: none;
+        } 
+    }
+    p {
+        display: none;
+    }
+}
+
+.enable {
+    .list_head {
+        .plus {
+            display: none;
+        }
+        .minus {
+            display: block;
+        } 
+    }
+    p {
+        display: block;
+    }
+}
+

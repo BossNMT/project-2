@@ -1,0 +1,118 @@
+.meet {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    #people {
+        width: 60%;
+        transform: translateX(-20%);
+    }
+
+    .text {
+        h1 {
+            font-size: 40px;
+            line-height: 50px;
+            color: #242f51;
+            font-weight: 600;
+            font-family: "Poppins";
+    
+            span {
+                display: block;
+            }
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 26px;
+            color: #616368;
+            font-weight: 400;
+            font-family: "Poppins";
+            margin-top: 16px;
+        }
+
+        img {
+            margin-top: 40px;
+        }
+        
+        h4 {
+            margin: 20px 0 0 0;
+            font-size: 20px;
+            line-height: 58px;
+            color: #242f51;
+            font-weight: 600;
+            font-family: "Poppins";
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 26px;
+            color: #616368;
+            font-weight: 400;
+            font-family: "Poppins";
+        }
+
+        .ceo {
+            margin-top: 28px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            .ceo__info {
+                display: flex;
+                align-items: center;
+
+
+                img {
+                    margin: 0;
+                    width: 90px;
+                    height: 90px;
+                    border-radius: 100%;
+                    object-fit: cover;
+                }
+
+                .info {
+                    margin-left: 30px;
+
+                    h4 {
+                        margin: 0;
+                        font-size: 20px;
+                        line-height: 28px;
+                        color: #242f51;
+                        font-weight: 600;
+                        font-family: "Poppins";
+                    }
+
+                    p {
+                        font-size: 16px;
+                        line-height: 28px;
+                        color: #616368;
+                        font-weight: 400;
+                        font-family: "Poppins";
+                        margin: 0; 
+                    }
+                }
+            }
+
+            .ceo__submit {
+                cursor: pointer;
+                width: 50px;
+                height: 50px;
+                border-radius: 25px;
+                background-color: #eff3f8;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                box-icon {
+                    color: #2500f9;
+                }
+            }
+
+            .ceo__submit:hover {
+                opacity: 0.5;
+                transition: 0.25s ease;
+            }
+        }
+    }
+}
